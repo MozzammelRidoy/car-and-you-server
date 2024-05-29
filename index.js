@@ -10,7 +10,8 @@ const port = process.env.PORT || 5000;
 const corsOptions = {
   origin: [
       'http://localhost:5173',
-      'https://car-and-you-67054.web.app'
+      'https://car-and-you-67054.web.app',
+      'https://car-and-you.netlify.app/'
       
   ],
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
